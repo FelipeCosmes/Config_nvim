@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir /home/felipe/.config/nvim
-mv init.vim ~/.config/nvim
-mv coc-settings.json ~/.config/nvim
+mkdir /home/felipe/.config/nvim/
+cp init.vim ~/.config/nvim/
+cp coc-settings.json ~/.config/nvim/
 
 #Baixando o vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
