@@ -1,0 +1,16 @@
+Siga as próximas instruções para baixar as personalizações no neovim:
+
+1) Abra o terminal com o diretório da pasta atual
+
+2) Execute o script Bash config.sh
+	$ ./config.sh 
+Caso não funcione, é preciso habilitar a execução do script. Para isso, coloque o seguinte comando no terminal
+	$ chmod +x config.sh
+	$ ./config.sh
+
+3) Agora, abra o nvim e coloque o seguinte comando
+	:PlugInstall
+
+4) Feche o nvim e abra-o novamente
+
+4) Pronto, agora é só correr pro abraço!
