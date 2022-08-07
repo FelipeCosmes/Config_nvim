@@ -29,5 +29,5 @@ sudo dpkg -i ripgrep_13.0.0_amd64.deb
 sudo apt-get install fd-find
 
 # ----------------------------------
-echo "Espera que não tenha dado erro, preguiça de tentar arrumar."
+echo "Espero que não tenha dado erro, preguiça de tentar arrumar."
 echo "Vlw, flw!"
