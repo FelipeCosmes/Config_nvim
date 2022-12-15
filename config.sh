@@ -1,6 +1,12 @@
 #!/bin/bash
 
-mkdir /home/felipe/.config/nvim/
+#Baixando o neovim 0.7
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+
+mkdir ~/.config/nvim/
 cp init.vim ~/.config/nvim/
 cp coc-settings.json ~/.config/nvim/
 
@@ -24,7 +30,7 @@ fc-cache -fv
 echo "NerdFonts baixado com sucesso!"
 
 #Baixando as fontes
-mkdir /home/felipe/.local/share/fonts
+mkdir ~/.local/share/fonts
 cp JetBrainsMono-2.242/fonts/ttf/*ttf /home/felipe/.local/share/fonts/
 fc-cache -f -v
 
