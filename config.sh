@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Baixano o curl
+sudo apt install curl
+
 #Baixando o neovim 0.7
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/stable
